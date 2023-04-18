@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbarall{
+    font-size: 25px;
+    color: #29f700!important;
+    text-decoration: none;
+    font-weight: 800;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 5px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+/* home */
+
+
+
+
+
+.column-66 {
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  float: left;
+}
+
+.column-33 {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+.column-33 img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+#home1{
+  background: url(wood3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  img {
+    margin: auto;
+  }
+  .column-33{
+    position: relative;
+    top: 50px;
+  }
+  .column-66{
+    position: relative;
+    left: 0px;
+  }
+  #home1{
+    background: url(wood3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500%;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+  margin: 0px auto;
+}
+#contact{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons button{
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+
+}
+#rahul{
+  padding: 40px;
+}
+
+}
+/* home */
+
+
+
+.signin{
+    background: green !important;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+#about{
+  background-color: black;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#about p{
+    color: white;
+
+}
+.leavemore{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+#contact{
+    background: #e5e5e5;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactus {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: rgb(19, 18, 18);
+  text-align: center;
+}
+h4 {
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 568px){
+  .styled-input {
+      width:100%;
+  }
+  .content{
+    margin: 0px auto;
+  }
+  #btnnn{
+    width: 40px;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide { 
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15rem;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  float: right;
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+            0 2px 10px 0 rgba(0,0,0,0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+            0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+      width:100%;
+      float: none;
+      text-align:center;
+  }
+  .single-content{
+    margin:0px auto;
+  }
+}
+
+input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}
+#rahul{
+  margin: auto;
+}
+
+
+
+.cont .filterDiv {
+  float: left;
+  color: black;
+  width: 100px;
+  height: 247px;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  padding: 40px;
+}
+
+.show {
+  display: block;
+}
+
+.cont {
+  overflow: hidden;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the buttons */
+.btn1{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* imgs slide */
+
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.buttons button{
+  background-color: #161616;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 10px 20px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.buttons button:hover{
+  background-color:#29f700;
+  color: black;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  text-align: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 60px;
+}
+
+.single-content{
+  border: 1px solid #fff;
+  margin: 0px auto;
+  padding: 2rem;
+  display: none;
+  transition: 1s;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .single-content h2{
+  color: white;
+} */
+/* .single-content p{
+  color: #b3b3b3;
+  padding-bottom: 2rem;
+  width: 50%;
+  margin: auto;
+} */
+
+.single-content a{
+  text-decoration: none;
+  background-color: #161616;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 150px;
+  margin-left: 50px;
+}
+.single-content a:hover{
+  background-color: #29f700;
+  color: black;
+}
+.single-content img{
+  width: 300px;
+  height: 200px; 
+  padding-bottom: 20px;
+}
+.one{
+  display: block;
+}
+.single-content h1{
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* footer */
+footer a{
+   text-decoration: none;
+}
